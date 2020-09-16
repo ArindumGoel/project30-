@@ -6,7 +6,7 @@ class Ground {
       //this.width = width;
 
       //this.height = height;
-      this.ground = Bodies.rectangle(400,790,780,20,options);
+      this.ground = Bodies.rectangle(400,790,800,20,options);
       World.add(world, this.ground);
     }
     display(){
